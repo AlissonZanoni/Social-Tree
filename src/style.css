@@ -7,24 +7,23 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body{
-    margin: 100px;
-    justify-content: center;
-    align-items: center;
+body{    
+    width: 230px;
+    margin: 30px auto;
 }
 
 #perfilimg{
-    align-items: center;
     border: #BB99DD solid 3px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     padding: 5px;
+    box-sizing: border-box;
 }
 
 #user{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 p{
@@ -33,6 +32,7 @@ p{
     text-align: center;
 }
 
-#icones{
-    margin-top: 50px;
+#icons{
+    margin: 30px 9px;
+    display: inline;
 }
